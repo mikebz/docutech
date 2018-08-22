@@ -1,0 +1,1080 @@
+<DOCUMENT_REQUEST_IMPORT _PopulatingSystemName="WebXpress" _PopulatingSystemLightsOn="0" _Version="2.0" _PopulatingSystemVersion="9.0.21">
+	<USER _Username="C621closer" _Password="Password1"/>
+	<EMORTGAGE_PACKAGE _ID="A1" MISMOVersionIdentifier="1.02">
+		<SMART_DOCUMENT PopulatingSystemDocumentIdentifier="classic">
+			<DATA>
+				<MAIN>
+					<LOAN MISMOVersionIdentifier="2.6">
+						<_APPLICATION>
+							<ADDITIONAL_CASE_DATA>
+								<TRANSMITTAL_DATA PropertyAppraisedValueAmount="210000" DTC_EnPetercedFeeIndicator="Y"/>
+							</ADDITIONAL_CASE_DATA>
+							<LOAN_ORIGINATOR>
+								<CONTACT_DETAIL>
+									<CONTACT_POINT _Type="Phone" _Value=""/>
+									<CONTACT_POINT _Type="Email" _Value=""/>
+								</CONTACT_DETAIL>
+							</LOAN_ORIGINATOR>
+							<BORROWER _SequenceIdentifier="1" BorrowerID="12345" _ApplicationSignedDate="" _FirstName="Peter" _HomeTelephoneNumber="208-520-1247" _LastName="Parker" _MiddleName="M." _NameSuffix="" _SSN="123-45-6789" MaritalStatusType="Married" NonPersonEntityIndicator="N" BorrowerNonObligatedIndicator="N" NextBorrowerIsSpouseOn4506T="Y">
+								<_ALIAS _SequenceIdentifier="1" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="2" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="3" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="4" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="5" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="6" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_NEAREST_LIVING_RELATIVE _City="" _Name="" _PostalCode="" _RelationshipDescription="" _State="" _StreetAddress="" _TelephoneNumber=""/>
+								<DECLARATION BorrowerFirstTimeHomebuyerIndicator="N"/>
+								<_MAIL_TO _City="Kalamazoo" _PostalCode="49001" _State="MI" _StreetAddress="303 11th Street N"/>
+								<_RESIDENCE BorrowerResidencyType="Current" _City="" _PostalCode="" _State="" _StreetAddress=""/>
+								<EMPLOYER _TelephoneNumber="123-444-5555"/>
+								<GOVERNMENT_MONITORING GenderType="Male" HMDAEthnicityType="NotSpecified" RaceNationalOriginType="NotSpecified">
+									<HMDA_RACE _Type=""/>
+								</GOVERNMENT_MONITORING>
+								<CONTACT_POINT _Type="Fax" _RoleType="Home" _Value=""/>
+								<CONTACT_POINT _Type="Email" _RoleType="Home" _Value="mborozdin@ethoslending.com"/>
+							</BORROWER>
+							<BORROWER _SequenceIdentifier="2" BorrowerID="67890" _ApplicationSignedDate="" _FirstName="Mary" _LastName="Parker" _MiddleName="Jane" _NameSuffix="" _UnparsedName="Mary Jane Parker" NonPersonEntityIndicator="N" BorrowerNonObligatedIndicator="N" _SSN="987-65-4321" MaritalStatusType="Married">
+								<_ALIAS _SequenceIdentifier="1" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="2" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="3" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="4" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="5" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="6" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<GOVERNMENT_MONITORING GenderType="Female" RaceNationalOriginType="NotSpecified">
+									<HMDA_RACE _Type=""/>
+								</GOVERNMENT_MONITORING>
+								<CONTACT_POINT _Type="Email" _RoleType="Home" _Value="mborozdin@ethoslending.com"/>
+								<_RESIDENCE BorrowerResidencyType="Current" _City="" _PostalCode="" _State="" _StreetAddress=""/>
+							</BORROWER>
+							<!--<BORROWER _SequenceIdentifier="3" _FirstName="Ben" _LastName="Parker" _MiddleName="G." _NameSuffix="" _UnparsedName="Ben G. Parker" NonPersonEntityIndicator="N" _SSN="333-22-4444" MaritalStatusType="Married" BorrowerNonObligatedIndicator="N" NextBorrowerIsSpouseOn4506T="Y">
+								<_ALIAS _SequenceIdentifier="1" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="2" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="3" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="4" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="5" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="6" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_RESIDENCE BorrowerResidencyType="Current" _City="" _PostalCode="" _State="" _StreetAddress=""/>
+								<GOVERNMENT_MONITORING GenderType="Male" HMDAEthnicityType="NotSpecified" RaceNationalOriginType="NotSpecified">
+									<HMDA_RACE _Type=""/>
+								</GOVERNMENT_MONITORING>
+								<CONTACT_POINT _Type="Email" _RoleType="Home" _Value="mborozdin@ethoslending.com"/>
+							</BORROWER>
+							<BORROWER _SequenceIdentifier="4" _FirstName="May" _LastName="Parker" _MiddleName="M." _NameSuffix="" _UnparsedName="May M. Parker" NonPersonEntityIndicator="N" _SSN="555-66-7777" MaritalStatusType="Married" BorrowerNonObligatedIndicator="N">
+								<_ALIAS _SequenceIdentifier="1" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="2" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="3" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="4" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="5" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_ALIAS _SequenceIdentifier="6" _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+								<_RESIDENCE BorrowerResidencyType="Current" _City="" _PostalCode="" _State="" _StreetAddress=""/>
+								<GOVERNMENT_MONITORING GenderType="Female" HMDAEthnicityType="NotSpecified" RaceNationalOriginType="NotSpecified">
+									<HMDA_RACE _Type=""/>
+								</GOVERNMENT_MONITORING>
+								<CONTACT_POINT _Type="Email" _RoleType="Home" _Value="mborozdin@ethoslending.com"/>
+							</BORROWER>-->
+							<ESCROW>
+								<_ACCOUNT_SUMMARY AggregateAccountingAdjustmentAmount="-195.99"/>
+							</ESCROW>
+							<ESCROW _ItemType="CityPropertyTax" _PaidByType="Buyer" _CollectedNumberOfMonthsCount="0" _PremiumAmount="0"/>
+							<ESCROW _ItemType="CityPropertyTax" _PaidByType="" _PremiumAmount="0"/>
+							<ESCROW _ItemType="CityPropertyTax" _AnnualPaymentAmount="0" _DueDate="" _PaymentFrequencyType="Monthly" _PremiumAmount="0">
+								<_ACCOUNT_SUMMARY EscrowCushionNumberOfMonthsCount="0"/>
+								<_PAYMENTS _SequenceIdentifier="2" _DueDate=""/>
+								<_PAYMENTS _SequenceIdentifier="3" _DueDate=""/>
+								<_PAYMENTS _SequenceIdentifier="4" _DueDate=""/>
+								<_PAID_TO _City="" _Name="" _PostalCode="" _State="" _StreetAddress="">
+									<CONTACT_DETAIL _Name=""/>
+								</_PAID_TO>
+							</ESCROW>
+							<ESCROW _ItemType="CountyPropertyTax" _PaidByType="Buyer" _CollectedNumberOfMonthsCount="4" _PremiumAmount="784"/>
+							<ESCROW _ItemType="CountyPropertyTax" _PaidByType="" _PremiumAmount="0"/>
+							<ESCROW _ItemType="CountyPropertyTax" _AnnualPaymentAmount="2352" _DueDate="5/15/2015" _PaymentFrequencyType="Monthly" _PremiumAmount="196">
+								<_ACCOUNT_SUMMARY EscrowCushionNumberOfMonthsCount="2"/>
+								<_PAYMENTS _SequenceIdentifier="2" _DueDate="10/15/2015"/>
+								<_PAYMENTS _SequenceIdentifier="3" _DueDate=""/>
+								<_PAYMENTS _SequenceIdentifier="4" _DueDate=""/>
+								<_PAID_TO _City="St. Cloud" _Name="Stearns" _PostalCode="56302" _State="MI" _StreetAddress="P.O. Box 728">
+									<CONTACT_DETAIL _Name="Stearns County AuditorTreasurer"/>
+								</_PAID_TO>
+							</ESCROW>
+							<ESCROW _ItemType="FloodInsurance" _PaidByType="Buyer" _CollectedNumberOfMonthsCount="0" _PremiumAmount="0"/>
+							<ESCROW _ItemType="FloodInsurance" _PaidByType="" _PremiumAmount="0"/>
+							<ESCROW _ItemType="FloodInsurance" _AnnualPaymentAmount="0" _DueDate="" _PaymentFrequencyType="Monthly" _PremiumAmount="0">
+								<_ACCOUNT_SUMMARY EscrowCushionNumberOfMonthsCount="0"/>
+								<_PAID_TO _City="" _Name="" _PostalCode="" _State="" _StreetAddress="">
+									<CONTACT_DETAIL _Name=""/>
+								</_PAID_TO>
+							</ESCROW>
+							<ESCROW _ItemType="HazardInsurance" _PaidByType="Buyer" _CollectedNumberOfMonthsCount="3" _PremiumAmount="289.62"/>
+							<ESCROW _ItemType="HazardInsurance" _PaidByType="" _PremiumAmount="0"/>
+							<ESCROW _ItemType="HazardInsurance" _AnnualPaymentAmount="1158.49" _DueDate="11/27/2015" _PaymentFrequencyType="Monthly" _PremiumAmount="96.54">
+								<_ACCOUNT_SUMMARY EscrowCushionNumberOfMonthsCount="2"/>
+								<_PAID_TO _City="Kalamazoo" _Name="State Farm Insurance" _PostalCode="49001" _State="MI" _StreetAddress="PO Box 441">
+									<CONTACT_DETAIL _Name="State Farm Insurance"/>
+								</_PAID_TO>
+							</ESCROW>
+							<ESCROW _ItemTypeOtherDescription="Other" _ItemType="Other" _PaidByType="Buyer" _CollectedNumberOfMonthsCount="0" _PremiumAmount="0"/>
+							<ESCROW _ItemType="Other" _ItemTypeOtherDescription="Other" _PaidByType="" _PremiumAmount="0"/>
+							<ESCROW _ItemType="Other" _AnnualPaymentAmount="0" _DueDate="" _PaymentFrequencyType="Monthly" _PremiumAmount="0" _ItemTypeOtherDescription="Other">
+								<_ACCOUNT_SUMMARY EscrowCushionNumberOfMonthsCount="0"/>
+								<_PAYMENTS _SequenceIdentifier="2" _DueDate=""/>
+								<_PAYMENTS _SequenceIdentifier="3" _DueDate=""/>
+								<_PAYMENTS _SequenceIdentifier="4" _DueDate=""/>
+								<_PAID_TO _City="" _Name="" _PostalCode="" _State="" _StreetAddress="">
+									<CONTACT_DETAIL _Name=""/>
+								</_PAID_TO>
+							</ESCROW>
+							<ESCROW _ItemTypeOtherDescription="MortgageInsurance" _ItemType="Other" _PaidByType="Buyer" _CollectedNumberOfMonthsCount="0" _PremiumAmount="0"/>
+							<ESCROW _ItemType="Other" _ItemTypeOtherDescription="MortgageInsurance" _PaidByType="" _PremiumAmount="0"/>
+							<ESCROW _ItemType="Other" _AnnualPaymentAmount="0" _DueDate="" _PaymentFrequencyType="Monthly" _PremiumAmount="0" _ItemTypeOtherDescription="MortgageInsurance" DTC_MIPrePaidIndicator="0">
+								<_ACCOUNT_SUMMARY EscrowCushionNumberOfMonthsCount="0"/>
+								<_PAID_TO _Name=""/>
+							</ESCROW>
+							<ESCROW _ItemType="DTC_MortgageInsurance" AmountLastPaid="0" DateLastPaid="" DelinquentDate=""/>
+							<ESCROW _ItemType="SchoolPropertyTax" _PaidByType="Buyer" _CollectedNumberOfMonthsCount="0" _PremiumAmount="0"/>
+							<ESCROW _ItemType="SchoolPropertyTax" _PaidByType="" _PremiumAmount="0"/>
+							<ESCROW _ItemType="SchoolPropertyTax" _AnnualPaymentAmount="0" _DueDate="" _PaymentFrequencyType="Monthly" _PremiumAmount="0">
+								<_ACCOUNT_SUMMARY EscrowCushionNumberOfMonthsCount="0"/>
+								<_PAYMENTS _SequenceIdentifier="2" _DueDate=""/>
+								<_PAYMENTS _SequenceIdentifier="3" _DueDate=""/>
+								<_PAYMENTS _SequenceIdentifier="4" _DueDate=""/>
+								<_PAID_TO _City="" _Name="" _PostalCode="" _State="" _StreetAddress="">
+									<CONTACT_DETAIL _Name=""/>
+								</_PAID_TO>
+							</ESCROW>
+							<ESCROW _ItemType="WindstormInsurance" _PaidByType="Buyer" _CollectedNumberOfMonthsCount="0" _PremiumAmount="0"/>
+							<ESCROW _ItemType="WindstormInsurance" _PaidByType="" _PremiumAmount="0"/>
+							<ESCROW _ItemType="WindstormInsurance" _AnnualPaymentAmount="0" _DueDate="" _PaymentFrequencyType="Monthly" _PremiumAmount="0">
+								<_ACCOUNT_SUMMARY EscrowCushionNumberOfMonthsCount="0"/>
+								<_PAID_TO _City="" _Name="" _PostalCode="" _State="" _StreetAddress="">
+									<CONTACT_DETAIL _Name=""/>
+								</_PAID_TO>
+							</ESCROW>
+							<GOVERNMENT_LOAN>
+								<FHA_LOAN _LenderIdentifier="8888999999" SectionOfActType=""/>
+								<VA_LOAN BorrowerFundingFeePercent="0"/>
+								<FHA_VA_LOAN DTC_GovernmentLoanPurpose="PurchaseExistingHomePrevOccupied"/>
+							</GOVERNMENT_LOAN>
+							<LOAN_PRODUCT_DATA>
+								<ARM _IndexCurrentValuePercent="0" _IndexMarginPercent="0" _IndexType="OneYearTreasury" _IndexTypeOtherDescription="" _LifetimeCapRate="0" _LifetimeFloorPercent="0" DTC_FixedPeriodMonths="" DTC_WorstCaseScenario="N" _InterestRateRoundingType="Nearest">
+									<_CONVERSION_OPTION _FeeAmount="0" _FeePercent="0" _PeriodEndPaymentNumber="" _PeriodStartPaymentNumber="" _NoteTermGreaterTPeterFifteenYearsAdditionalPercent="" _NoteTermLessTPeterFifteenYearsAdditionalPercent="" DTC_Convertible="Non_Convertible"/>
+								</ARM>
+								<BUYDOWN _ContributorTypeOtherDescription="" _DurationMonths="0" _ContributorType="Seller" _OriginalBalanceAmount="0">
+									<_SUBSIDY_SCHEDULE _PeriodIdentifier="1" _AdjustmentPercent="0" _CPetergeFrequencyMonths="0" _PeriodicPaymentSubsidyAmount="0"/>
+									<_CONTRIBUTOR _RoleType="Borrower" _Amount="0"/>
+									<_CONTRIBUTOR _RoleType="LenderPremiumFinanced" _Amount="0"/>
+									<_CONTRIBUTOR _RoleType="Seller" _Amount="0"/>
+								</BUYDOWN>
+								<BUYDOWN>
+									<_SUBSIDY_SCHEDULE _PeriodIdentifier="2" _AdjustmentPercent="0" _CPetergeFrequencyMonths="0" _PeriodicPaymentSubsidyAmount="0"/>
+									<_CONTRIBUTOR _RoleType="Borrower" _Amount="0"/>
+									<_CONTRIBUTOR _RoleType="LenderPremiumFinanced" _Amount="0"/>
+									<_CONTRIBUTOR _RoleType="Seller" _Amount="0"/>
+								</BUYDOWN>
+								<BUYDOWN>
+									<_SUBSIDY_SCHEDULE _PeriodIdentifier="3" _AdjustmentPercent="0" _CPetergeFrequencyMonths="0" _PeriodicPaymentSubsidyAmount="0"/>
+									<_CONTRIBUTOR _RoleType="Borrower" _Amount="0"/>
+									<_CONTRIBUTOR _RoleType="LenderPremiumFinanced" _Amount="0"/>
+									<_CONTRIBUTOR _RoleType="Seller" _Amount="0"/>
+								</BUYDOWN>
+								<BUYDOWN>
+									<_SUBSIDY_SCHEDULE _PeriodIdentifier="4" _AdjustmentPercent="0" _CPetergeFrequencyMonths="0"/>
+								</BUYDOWN>
+								<BUYDOWN>
+									<_SUBSIDY_SCHEDULE _PeriodIdentifier="5" _AdjustmentPercent="0" _CPetergeFrequencyMonths="0"/>
+								</BUYDOWN>
+								<BUYDOWN>
+									<_SUBSIDY_SCHEDULE _PeriodIdentifier="6" _AdjustmentPercent="0" _CPetergeFrequencyMonths="0"/>
+								</BUYDOWN>
+								<HELOC _FirstLienDate="" _FirstLienHolderName="" _FirstLienPrincipalBalanceAmount="0"/>
+								<INTEREST_ONLY/>
+								<LOAN_FEATURES AssumabilityIndicator="N" BalloonIndicator="N" BalloonLoanMaturityTermMonths="0" BiweeklyLoanIndicator="N" ConformingIndicator="Y" DemandFeatureIndicator="N" DTC_AdvancedFeeContractDurationDays="0" DTC_BackEndRatio="0" DTC_BridgeLoanIndicator="N" DTC_InsuranceAvailableFromLender="N" DTC_InsuranceCost="0" DTC_InsuranceTerm="0" DTC_PrepaymentPenaltyDescription="" EstimatedPrepaidDays="9.17" RefundableApplicationFeeIndicator="N" FullPrepaymentPenaltyOptionType="" InterestOnlyTerm="0" LoanDocumentationType="FullDocumentation" LienPriorityType="FirstLien" LoanMaturityDate="" LoanOriginalMaturityTermMonths="0" LoanRepaymentType="NoNegativeAmortization" LoanScheduledClosingDate="10/01/2018" NegativeAmortizationLimitPercent="0" PrepaymentPenaltyIndicator="N" ProductDescription="Conventional Fixed" RESPAConformingYearType="January2010" ScheduledFirstPaymentDate="12/1/2017" TimelyPaymentRateReductionPercent="0">
+									<LATE_CHARGE _GracePeriod="15" _Rate="5" _MaximumAmount="0" _MinimumAmount="0"/>
+									<NOTE_PAY_TO _City="" _PostalCode="" _State="" _StreetAddress="" _UnparsedName=""/>
+								</LOAN_FEATURES>
+								<PAYMENT_ADJUSTMENT _PeriodicCapPercent="0" FirstPaymentAdjustmentDate="" SubsequentPaymentAdjustmentMonths="0"/>
+								<RATE_ADJUSTMENT _FirstCPetergeCapRate="0" _FirstCPetergeFloorRate="0" _SubsequentCapPercent="0" FirstRateAdjustmentDate="" DTC_SecondRateAdjustmentDate="" FirstRateAdjustmentMonths="0" SubsequentRateAdjustmentMonths="0"/>
+							</LOAN_PRODUCT_DATA>
+							<LIABILITY _Type="MortgageLoan" _MonthlyPaymentAmount="0"/>
+							<LOAN_PURPOSE _Type="Refinance" PropertyLeaseholdExpirationDate="" PropertyRightsType="FeeSimple" PropertyUsageType="PrimaryResidence">
+								<CONSTRUCTION_REFINANCE_DATA GSERefinancePurposeType="NoCashOutFHAStreamlinedRefinance"/>
+							</LOAN_PURPOSE>
+							<MERS MERS_MINNumber="100916600000003473" MERSRegistrationIndicator="N"/>
+							<MI_DATA MICertificateIdentifier="" MICollectedNumberOfMonthsCount="0" MICompanyName="" MICushionNumberOfMonthsCount="0" MIInitialPremiumRateDurationMonths="0" MIInitialPremiumRatePercent="0" MI_LTVCutoffPercent="78">
+								<_PAID_TO _City="" _PostalCode="" _State="" _StreetAddress="" _Name="">
+									<CONTACT_DETAIL _Name=""/>
+								</_PAID_TO>
+								<MI_RENEWAL_PREMIUM _Sequence="First" _MonthlyPaymentAmount="0" _Rate="0" _RateDurationMonths="12"/>
+								<MI_RENEWAL_PREMIUM _Sequence="Second" _Rate="0" _RateDurationMonths="108"/>
+								<MI_RENEWAL_PREMIUM _Sequence="Third" _Rate="0" _RateDurationMonths="240"/>
+							</MI_DATA>
+							<MORTGAGE_TERMS AgencyCaseIdentifier="" BaseLoanAmount="103000" LenderCaseIdentifier="ETHOS_TEST_10" LenderLoanIdentifier="ETHOS_TEST_10" LoanAmortizationTermMonths="360" LoanAmortizationType="Fixed" OriginalLoanAmount="103000" MortgageType="Conventional" NoteRatePercent="3.25" RequestedInterestRatePercent="3.25"/>
+							<PROPERTY AssessorsParcelIdentifier="" _City="Kalamazoo" _County="Stearns" _FinancedNumberOfUnits="0" _PostalCode="49001" _State="MI" _StreetAddress="303 11th Street N" DTC_Type="SingleFamily" PlannedUnitDevelopmentIndicator="N">
+								<_DETAILS DTC_VehicleIdentificationNumber="" ManufacturedHomeIndicator="N" RecordingJurisdictionType="COUNTY" RecordingJurisdictionTypeOtherDescription="COUNTY" JudicialDistrictName="" CondominiumIndicator="N" CondominiumPUDDeclarationsDescription="" ProjectName=""/>
+								<_LEGAL_DESCRIPTION _TextDescription="Lot Eleven(11), Block Three (3), North Pointe, according to the plat and survey thereof on file and of record in the Office of the County Recorder in and for Stearns County, Michigan."/>
+								<_LEGAL_DESCRIPTION _Type="Other" _TypeOtherDescription="ShortLegalDescription" _TextDescription=""/>
+							</PROPERTY>
+							<REO_PROPERTY _SubjectIndicator="N"/>
+							<TRANSACTION_DETAIL MIAndFundingFeeFinancedAmount="0" PurchasePriceAmount="0" SubordinateLienAmount="0"/>
+							<RESPA_FEE _SpecifiedHUDLineNumber="801" _TypeOtherDescription="Our Origination Charge" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="Y" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="1366.50" _Percent="0"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="Y" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="802" _TypeOtherDescription="Your Credit or Charge (Points) for the Specific Interest Rat" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="ChosenInterestRateCreditOrCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer" DTC_BonafideIndicator="N">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="Y" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00" _Percent="0"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="Y" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="803" _TypeOtherDescription="Your Adjusted Origination Charges" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="CombinedOurOriginationAndInterestRateCreditOrCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name="Guuggenberger Appraisal Services"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="804" _TypeOtherDescription="Appraisal Fee" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="RequiredServicesLenderSelected" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name="Guggenberger"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="350.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="805" _TypeOtherDescription="Credit Report" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="RequiredServicesLenderSelected" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name="CSC"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="24.35"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="806" _TypeOtherDescription="Tax Service" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="RequiredServicesLenderSelected" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="807" _TypeOtherDescription="Flood Certification" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="RequiredServicesLenderSelected" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name="Wolters Kluwer"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="Y" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="15.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="Y" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="808" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="809" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="810" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="811" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="812" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="813" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="814" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="815" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="816" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="817" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="818" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="819" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="820" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="821" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="822" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="823" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="824" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="825" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="826" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="827" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="828" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OurOriginationCharge" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="901" _TypeOtherDescription="Daily Interest Charges" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="Y" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="119.21"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="Y" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="902" _TypeOtherDescription="Conventional / PMI Information" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="RequiredServicesLenderSelected" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="Y" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="Y" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="903" _TypeOtherDescription="Homeowner's Insurance" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="None" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name="State Farm Insurance"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="1158.49"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="904" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="None" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="905" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="None" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name="VA Funding Fee"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="906" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="None" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="907" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="None" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1101" _TypeOtherDescription="Title Services and Lender's Title Insurance" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="TitleServices" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1102" _TypeOtherDescription="Settlement or Closing Fee" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="TitleServices" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name="Quarry"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="Y" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="725.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="Y" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1103" _TypeOtherDescription="Owner's Title Insurance" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="OwnersTitleInsurance" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1104" _TypeOtherDescription="Lender's Title Insurance" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="TitleServices" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name="Quarry Title"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="206.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1105" _TypeOtherDescription="Lender's Title Policy Limit" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer" _TotalAmount="103000">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1106" _TypeOtherDescription="Owner's Title Policy Limit" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer" _TotalAmount="0">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1308" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="RequiredServicesYouCanShopFor" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1309" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="RequiredServicesYouCanShopFor" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1310" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="RequiredServicesYouCanShopFor" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1208" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="GovernmentRecordingCharges" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1209" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="GovernmentRecordingCharges" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1210" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="GovernmentRecordingCharges" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1211" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="GovernmentRecordingCharges" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1212" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="GovernmentRecordingCharges" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1213" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="GovernmentRecordingCharges" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1214" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="GovernmentRecordingCharges" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1215" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="GovernmentRecordingCharges" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1107" _TypeOtherDescription="Agent's Portion of the Total Title Insurance Premium" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer" _TotalAmount="0">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1108" _TypeOtherDescription="Underwriter's Portion of the Total Title Insurance Premium" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer" _TotalAmount="0">
+								<_PAID_TO _Name="Tri County Abstract"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1109" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="TitleServices" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1110" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="TitleServices" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1111" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="TitleServices" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1112" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="TitleServices" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1113" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="N" _BorrowerChosenProviderIndicator="N" GFEAggregationType="TitleServices" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1201" _TypeOtherDescription="Government Recording Charges" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="GovernmentRecordingCharges" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1202" _TypeOtherDescription="Recording Fees" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="GovernmentRecordingCharges" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="230.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1203" _TypeOtherDescription="Transfer Taxes" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="TransferTaxes" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1204" _TypeOtherDescription="City/County Tax/Stamps" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="TransferTaxes" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="238.55"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1205" _TypeOtherDescription="State Tax/Stamps" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="TransferTaxes" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1206" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="GovernmentRecordingCharges" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1207" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="GovernmentRecordingCharges" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1301" _TypeOtherDescription="Required Services That You Can Shop For" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="RequiredServicesYouCanShopFor" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1302" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="RequiredServicesYouCanShopFor" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1303" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="RequiredServicesYouCanShopFor" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1304" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="RequiredServicesYouCanShopFor" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1305" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="RequiredServicesYouCanShopFor" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1306" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="RequiredServicesYouCanShopFor" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1307" _TypeOtherDescription="" DTC_IncludeInWireAmountIndicator="N" DTC_IncludeOnHUD="Y" _BorrowerChosenProviderIndicator="N" GFEAggregationType="RequiredServicesYouCanShopFor" _GFEDisclosedAmount="0" _ResponsiblePartyType="Buyer">
+								<_PAID_TO _Name=""/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="N" _Amount="0.00"/>
+								<_PAYMENT _PaidByType="Buyer" _PaidToType="" _IncludedInAPRIndicator="N" _Section32Indicator="N" _PaidOutsideOfClosingIndicator="Y" _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE RESPASectionClassificationType="100:GrossAmountDueFromBorrower">
+								<_PAYMENT _Amount="4164.02"/>
+							</RESPA_FEE>
+							<RESPA_FEE RESPASectionClassificationType="400:GrossAmountDueToSeller">
+								<_PAYMENT _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE RESPASectionClassificationType="" _Type="ApplicationFee" _TypeOtherDescription="">
+								<_PAYMENT _Amount="0" _PaidByType="Buyer"/>
+							</RESPA_FEE>
+							<RESPA_FEE RESPASectionClassificationType="1200:RecordingAndTransferCharges" _Type="DeedRecordingFee">
+								<_PAYMENT _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE RESPASectionClassificationType="1200:RecordingAndTransferCharges" _Type="MortgageRecordingFee">
+								<_PAYMENT _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE RESPASectionClassificationType="1200:RecordingAndTransferCharges" _Type="ReleaseRecordingFee">
+								<_PAYMENT _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE RESPASectionClassificationType="1200:RecordingAndTransferCharges" _Type="CityCountyDeedTaxStampFee">
+								<_PAYMENT _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE RESPASectionClassificationType="1200:RecordingAndTransferCharges" _Type="CityCountyMortgageTaxStampFee">
+								<_PAYMENT _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE RESPASectionClassificationType="1200:RecordingAndTransferCharges" _Type="StateDeedTaxStampFee">
+								<_PAYMENT _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE RESPASectionClassificationType="1200:RecordingAndTransferCharges" _Type="StateMortgageTaxStampFee">
+								<_PAYMENT _Amount="0"/>
+							</RESPA_FEE>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1001" DTC_IncludeInWireAmountIndicator="N"/>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1002" DTC_IncludeInWireAmountIndicator="N"/>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1003" DTC_IncludeInWireAmountIndicator="N"/>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1004" DTC_IncludeInWireAmountIndicator="N"/>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1005" DTC_IncludeInWireAmountIndicator="N"/>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1006" DTC_IncludeInWireAmountIndicator="N"/>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1007" DTC_IncludeInWireAmountIndicator="N"/>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1008" DTC_IncludeInWireAmountIndicator="N"/>
+							<RESPA_FEE _SpecifiedHUDLineNumber="1009" DTC_IncludeInWireAmountIndicator="N"/>
+						</_APPLICATION>
+						<_CLOSING_DOCUMENTS>
+							<ALLONGE_TO_NOTE DTC_AllongeOtherIndicator="0" DTC_AllongeTextOther="" DTC_PrimePlusRate="0"/>
+							<BENEFICIARY _City="Kalamazoo" _PostalCode="49001" _State="MI" _StreetAddress="301 Main Street, P.O. Box 416" _UnparsedName="The First National Bank of Kalamazoo">
+								<CONTACT_DETAIL _Name=""/>
+							</BENEFICIARY>
+							<CLOSING_AGENT _Type="ClosingAgent" DTC_LenderSameOrAffiliateIndicator="N" _StreetAddress="" _City="" _State="" _PostalCode="">
+								<CONTACT_DETAIL _Name=""/>
+								<NON_PERSON_ENTITY_DETAIL>
+									<AUTHORIZED_REPRESENTATIVE>
+										<CONTACT_DETAIL>
+											<CONTACT_POINT _Type="Email" _RoleType="Work" _Value=""/>
+											<CONTACT_POINT _Type="Fax" _RoleType="Work" _Value=""/>
+											<CONTACT_POINT _Type="Other" _RoleType="Work" _TypeOtherDescription="PhoneExtension" _Value=""/>
+											<CONTACT_POINT _Type="Phone" _RoleType="Work" _Value=""/>
+										</CONTACT_DETAIL>
+									</AUTHORIZED_REPRESENTATIVE>
+								</NON_PERSON_ENTITY_DETAIL>
+							</CLOSING_AGENT>
+							<CLOSING_AGENT _Type="EscrowCompany" _City="St. Cloud" _OrderNumberIdentifier="" _PostalCode="56301" _State="MI" _StreetAddress="4180 Thielman Lane #104" _UnparsedName="Quarry Title &amp; Closing, LLC">
+								<CONTACT_DETAIL _Name="">
+									<CONTACT_POINT _Type="Fax" _RoleType="Work" _Value=""/>
+									<CONTACT_POINT _Type="Phone" _RoleType="Work" _Value="320-654-0050"/>
+									<CONTACT_POINT _Type="Email" _RoleType="Work" _Value=""/>
+								</CONTACT_DETAIL>
+							</CLOSING_AGENT>
+							<CLOSING_AGENT _Type="Other" _TypeOtherDescription="FloodInsuranceAgent">
+								<CONTACT_DETAIL _Name="">
+									<CONTACT_POINT _Type="Phone" _RoleType="Work" _Value=""/>
+									<CONTACT_POINT _Type="Fax" _RoleType="Work" _Value=""/>
+								</CONTACT_DETAIL>
+							</CLOSING_AGENT>
+							<CLOSING_AGENT _Type="Other" _TypeOtherDescription="HazardInsuranceAgent">
+								<CONTACT_DETAIL _Name="Thomas Graham">
+									<CONTACT_POINT _Type="Fax" _RoleType="Work" _Value=""/>
+									<CONTACT_POINT _Type="Phone" _RoleType="Work" _Value="320-685-3672"/>
+								</CONTACT_DETAIL>
+							</CLOSING_AGENT>
+							<CLOSING_AGENT _Type="Other" _TypeOtherDescription="LenderLoanOfficer">
+								<CONTACT_DETAIL _Name="Amy Statz"/>
+							</CLOSING_AGENT>
+							<CLOSING_AGENT _Type="Other" _TypeOtherDescription="WindstormInsuranceAgent">
+								<CONTACT_DETAIL _Name="">
+									<CONTACT_POINT _Type="Phone" _RoleType="Work" _Value=""/>
+									<CONTACT_POINT _Type="Fax" _RoleType="Work" _Value=""/>
+								</CONTACT_DETAIL>
+							</CLOSING_AGENT>
+							<CLOSING_AGENT _Type="TitleCompany" _City="St. Cloud" _PostalCode="56301" _State="MI" _StreetAddress="4180 Thielman Lane #104" _UnparsedName="Quarry Title &amp; Closing, LLC">
+								<CONTACT_DETAIL>
+									<CONTACT_POINT _Type="Fax" _RoleType="Work" _Value=""/>
+									<CONTACT_POINT _Type="Phone" _RoleType="Work" _Value="320-654-0050"/>
+									<CONTACT_POINT _Type="Email" _RoleType="Work" _Value=""/>
+								</CONTACT_DETAIL>
+							</CLOSING_AGENT>
+							<CLOSING_AGENT _Type="Attorney" DTC_FirstName="" DTC_LastName="" DTC_MiddleName="" DTC_Suffix=""/>
+							<CLOSING_INSTRUCTIONS LeadBasedPaintCertificationRequiredIndicator="N" PreliminaryTitleReportDate="" SpecialFloodHazardAreaIndicator="N" _ConsolidatedClosingConditionsDescription="Original signed, typed, and dated final application.NoteMortgageAssignmentE
+scrow Account DisclosureW-9Tax Certification1st Payment LetterCompliance AgreementServicing DisclosureTIL" DTC_InitialClosingConditions=""/>
+							<COMPENSATION _Type="BrokerCompensation" _Amount="0" _Percent="0"/>
+							<COMPENSATION _Type="ServiceReleasePremium" _Amount="0" _Percent="0"/>
+							<COMPENSATION _Type="YieldSpreadDifferential" _Amount="0" _Percent="0"/>
+							<COMPENSATION _Type="BrokerCompensation" _Amount="0"/>
+							<ESCROW_ACCOUNT_DETAIL _InitialBalanceAmount="877.63" _MinimumBalanceAmount="585.08" InitialEscrowDepositIncludesAllPropertyTaxesIndicator="N" InitialEscrowDepositIncludesAllInsuranceIndicator="N" InitialEscrowDepositIncludesOtherDescription=""/>
+							<INVESTOR _City="Minneapolis" _PostalCode="55435" _State="MI" _StreetAddress="3601 Michigan Drive - Suite 200" _UnparsedName="Fannie Mae">
+								<CONTACT_DETAIL _Name="">
+									<CONTACT_POINT _Type="Email" _RoleType="Work" _Value=""/>
+								</CONTACT_DETAIL>
+								<NON_PERSON_ENTITY_DETAIL>
+									<AUTHORIZED_REPRESENTATIVE _TitleDescription="">
+										<CONTACT_POINT _Type="Fax" _RoleType="Work" _Value=""/>
+										<CONTACT_POINT _Type="Phone" _RoleType="Work" _Value="800-262-5294"/>
+									</AUTHORIZED_REPRESENTATIVE>
+								</NON_PERSON_ENTITY_DETAIL>
+							</INVESTOR>
+							<LENDER _City="Kalamazoo" _County="Stearns" _PostalCode="49001" _State="MI" _StreetAddress="301 Main Street, P.O. Box 416" _UnparsedName="The First National Bank of Kalamazoo" DTC_FederallyExemptIndicator="N" DTC_MailingStreetAddress="301 Main Street, P.O. Box 416" DTC_MailingCity="Kalamazoo" DTC_MailingState="MI" DTC_MailingPostalCode="49001">
+								<CONTACT_DETAIL _Name="Carol Stang">
+									<CONTACT_POINT _Type="Email" _Value=""/>
+									<CONTACT_POINT _Type="Fax" _Value="320-685-5265"/>
+									<CONTACT_POINT _Type="Phone" _Value="320-685-4004"/>
+								</CONTACT_DETAIL>
+							</LENDER>
+							<LENDER_BRANCH _StreetAddress="" _City="" _State="" _PostalCode=""/>
+							<LOAN_DETAILS ClosingDate="10/01/2018" DisbursementDate="06/05/2018" DocumentPreparationDate="04/02/2018" OriginalLTVRatioPercent="49.05" LockExpirationDate="10/25/2017" RescissionDate="06/05/2017" DTC_FundingDate="">
+								<GFE_DETAIL GFEDisclosureDate="" GFEInterestRateAvailableThroughDate="10/25/2015" GFELoanOriginatorFeePaymentCreditType="ChosenInterestRateCreditOrCharge" GFESettlementChargesAvailableThroughDate="10/25/2015">
+									<GFE_COMPARISON _Type="SameLoanWithLowerInterestRate" _InterestRatePercent="0" _SettlementChargesAmount="0"/>
+									<GFE_COMPARISON _Type="SameLoanWithLowerSettlementCharges" _InterestRatePercent="0" _SettlementChargesAmount="0"/>
+								</GFE_DETAIL>
+								<INTERIM_INTEREST _PaidFromDate="11/18/2015" _PaidThroughDate="12/1/2015" _PerDiemCalculationMethodType="365"/>
+							</LOAN_DETAILS>
+							<LOSS_PAYEE _City="Springfield" _PostalCode="45501-5708" _State="OH" _StreetAddress="P.O. Box 5708">
+								<CONTACT_DETAIL _Name="Wells Fargo Bank, N.A., ISAOA"/>
+							</LOSS_PAYEE>
+							<PAYMENT_DETAILS DTC_LastPaymentFullyAmortized="N"/>
+							<RESPA_SERVICING_DATA _AreAbleToServiceIndicator="N" _ExpectToSellAllServicingIndicator="Y" _FirstTransferYear="2006" _FirstTransferYearValue="50" _SecondTransferYear="2007" _SecondTransferYearValue="50" _ThirdTransferYear="2008" _ThirdTransferYearValue="50" _TwelveMonthPeriodTransferPercent="50"/>
+							<RESPA_SUMMARY _TotalDepositedReservesAmount="1073.62" _TotalNetProceedsForFundingAmount="103000"/>
+							<SELLER _City="" _PostalCode="" _State="" _StreetAddress=""/>
+							<SELLER _SequenceIdentifier="1" _FirstName="" _LastName="" _MiddleName=""/>
+							<SELLER _SequenceIdentifier="2" _FirstName="" _LastName="" _MiddleName=""/>
+							<SELLER _SequenceIdentifier="3" _FirstName="" _LastName="" _MiddleName=""/>
+							<SELLER _SequenceIdentifier="4" _FirstName="" _LastName="" _MiddleName=""/>
+							<SERVICER>
+								<NON_PERSON_ENTITY_DETAIL>
+									<AUTHORIZED_REPRESENTATIVE>
+										<CONTACT_DETAIL>
+											<CONTACT_POINT _Type="Phone" _Value=""/>
+										</CONTACT_DETAIL>
+									</AUTHORIZED_REPRESENTATIVE>
+								</NON_PERSON_ENTITY_DETAIL>
+							</SERVICER>
+							<PAYOFF _SpecifiedHUDLineNumber="1501" _Amount="102696.1">
+								<PAYEE _UnparsedName="WFHM"/>
+							</PAYOFF>
+							<PAYOFF _SpecifiedHUDLineNumber="1502" _Amount="0">
+								<PAYEE _UnparsedName=""/>
+							</PAYOFF>
+							<PAYOFF _SpecifiedHUDLineNumber="1503" _Amount="0">
+								<PAYEE _UnparsedName=""/>
+							</PAYOFF>
+							<PAYOFF _SpecifiedHUDLineNumber="1504" _Amount="0">
+								<PAYEE _UnparsedName=""/>
+							</PAYOFF>
+							<PAYOFF _SpecifiedHUDLineNumber="1505" _Amount="0">
+								<PAYEE _UnparsedName=""/>
+							</PAYOFF>
+							<PAYOFF _SpecifiedHUDLineNumber="1506" _Amount="0">
+								<PAYEE _UnparsedName=""/>
+							</PAYOFF>
+							<PAYOFF _SpecifiedHUDLineNumber="1507" _Amount="0">
+								<PAYEE _UnparsedName=""/>
+							</PAYOFF>
+							<PAYOFF _SpecifiedHUDLineNumber="1508" _Amount="0">
+								<PAYEE _UnparsedName=""/>
+							</PAYOFF>
+							<PAYOFF _SpecifiedHUDLineNumber="1509" _Amount="0">
+								<PAYEE _UnparsedName=""/>
+							</PAYOFF>
+							<PAYOFF _SpecifiedHUDLineNumber="1510" _Amount="0">
+								<PAYEE _UnparsedName=""/>
+							</PAYOFF>
+							<PAYOFF _SpecifiedHUDLineNumber="1511" _Amount="0">
+								<PAYEE _UnparsedName=""/>
+							</PAYOFF>
+							<PAYOFF _SpecifiedHUDLineNumber="1512" _Amount="0">
+								<PAYEE _UnparsedName=""/>
+							</PAYOFF>
+							<PAYOFF _SpecifiedHUDLineNumber="1513" _Amount="0">
+								<PAYEE _UnparsedName=""/>
+							</PAYOFF>
+							<PAYOFF _SpecifiedHUDLineNumber="1514" _Amount="0">
+								<PAYEE _UnparsedName=""/>
+							</PAYOFF>
+							<PAYOFF _SpecifiedHUDLineNumber="1515" _Amount="0">
+								<PAYEE _UnparsedName=""/>
+							</PAYOFF>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="1601" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="1602" _LineItemAmount="4164.02"/>
+							<PAYOFF _SpecifiedHUDLineNumber="1516" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1517" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1518" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1519" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1520" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1521" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1522" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1523" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1524" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1525" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1526" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1527" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1528" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1529" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1530" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1531" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1532" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1533" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1534" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1535" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1536" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1537" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1538" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1539" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1540" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1541" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1542" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1543" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1544" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1545" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1546" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1547" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1548" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1549" _Amount="0" _TypeOtherDescription=""/>
+							<PAYOFF _SpecifiedHUDLineNumber="1550" _Amount="0" _TypeOtherDescription=""/>
+							<RECORDABLE_DOCUMENT>
+								<DEFAULT _LendingInstitutionPostOfficeBoxAddress="" _AcknowledgmentOfCashAdvanceAgainstNonHomesteadPropertyIndicator=""/>
+								<_PREPARED_BY _City="Kalamazoo" _PostalCode="49001" _State="MI" _StreetAddress="301 Main Street, P.O. Box 416" _TelephoneNumber="320-685-4004" _UnparsedName=""/>
+								<PREPARED_BY DTC_PreparedByEmail="" DTC_PreparedByFax="320-685-5265" _UnparsedName="Attn:  Mortgage Department" DTC_CompanyName="The First National Bank of Kalamazoo"/>
+								<_ASSOCIATED_DOCUMENT _BookNumber="" _InstrumentNumber="" _PageNumber=""/>
+								<_RETURN_TO _City="Kalamazoo" _PostalCode="49001" _State="MI" _StreetAddress="301 Main Street, P.O. Box 416" _ToTheAttentionOfDescription="Carol Stang" _UnparsedName="The First National Bank of Kalamazoo" DTC_TelephoneNumber=""/>
+								<ASSIGN_FROM _City="Kalamazoo">
+									<NON_PERSON_ENTITY_DETAIL _TaxIdentificationNumberIdentifier="410256120"/>
+								</ASSIGN_FROM>
+								<ASSIGN_TO _City="Bloomington" _PostalCode="55435" _State="MI" _StreetAddress="3601 Michigan Drive, Mac X4701-022" _UnparsedName="Wells Fargo Bank, N.A."/>
+								<LENDER>
+									<NON_PERSON_ENTITY_DETAIL _OrganizedUnderTheLawsOfJurisdictionName="The United States"/>
+								</LENDER>
+								<NOTARY _AppearanceDate="11/14/2015" _AppearedBeforeNamesDescription="Peter M. Parker and Mary Jane Parker, Husband and Wife" _CommissionCounty="Stearns" _CommissionExpirationDate="" _CommissionState="Michigan" _UnparsedName="" _Relationship1="He" _Relationship2="His"/>
+								<RIDERS AdjustableRateRiderIndicator="N" BalloonRiderIndicator="N" BiweeklyPaymentRiderIndicator="N" CondominiumRiderIndicator="N" GrowingEquityRiderIndicator="N" OneToFourFamilyRiderIndicator="N" OtherRiderDescription="" OtherRiderIndicator="N" PlannedUnitDevelopmentRiderIndicator="N" RateImprovementRiderIndicator="0" SecondHomeRiderIndicator="N" VARiderIndicator="N"/>
+								<SECURITY_INSTRUMENT _AssumptionFeeAmount="0" _AttorneyFeePercent="0" _OweltyOfPartitionIndicator="N" _PurchaseMoneyIndicator="N" _RealPropertyImprovementsNotCoveredIndicator="N" _RecordingRequestedByName="" _RenewalAndExtensionOfLiensAgainstHomesteadPropertyIndicator="N" _TrusteeFeePercent="0" _VestingDescription="Peter M. Parker and Mary Jane Parker, Husband and Wife" DTC_TrusteeFeeAmount="0"/>
+								<TRUSTEE _City="" _PostalCode="" _State="" _StreetAddress="">
+									<CONTACT_DETAIL _Name=""/>
+								</TRUSTEE>
+							</RECORDABLE_DOCUMENT>
+							<RECORDABLE_DOCUMENT _DocumentType="AssignmentOfMortgage">
+								<NOTARY _AppearanceDate="" _CommissionCounty="" _CommissionExpirationDate="" _CommissionState="" _UnparsedName=""/>
+							</RECORDABLE_DOCUMENT>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="101" _LineItemPaidByType="Buyer" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="102" _LineItemPaidByType="Buyer" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="104" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="105" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="106" _LineItemPaidByType="Buyer" _LineItemAmount="0" HUD1LineItemFromDate="" HUD1LineItemToDate=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="107" _LineItemPaidByType="Buyer" _LineItemAmount="0" HUD1LineItemFromDate="" HUD1LineItemToDate=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="108" _LineItemPaidByType="Buyer" _LineItemAmount="0" HUD1LineItemFromDate="" HUD1LineItemToDate=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="109" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="110" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="111" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="112" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="201" _LineItemPaidByType="Buyer" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="202" _LineItemPaidByType="Buyer" _LineItemAmount="103000"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="203" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="204" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="205" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="206" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="207" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="208" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="209" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="210" _LineItemPaidByType="Buyer" _LineItemAmount="0" HUD1LineItemFromDate="" HUD1LineItemToDate=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="211" _LineItemPaidByType="Buyer" _LineItemAmount="0" HUD1LineItemFromDate="" HUD1LineItemToDate=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="212" _LineItemPaidByType="Buyer" _LineItemAmount="0" HUD1LineItemFromDate="" HUD1LineItemToDate=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="213" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="214" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="215" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="216" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="217" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="218" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="219" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="220" _LineItemPaidByType="Buyer" _LineItemAmount="103000"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="301" _LineItemPaidByType="Buyer" _LineItemAmount="4164.02"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="302" _LineItemPaidByType="Buyer" _LineItemAmount="103000"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="303" _LineItemPaidByType="Buyer" HUD1CashToOrFromBorrowerIndicator="Y" _LineItemAmount="98835.98"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="401" _LineItemPaidByType="Seller" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="402" _LineItemPaidByType="Seller" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="403" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="404" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="405" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="406" _LineItemPaidByType="Seller" _LineItemAmount="0" HUD1LineItemFromDate="" HUD1LineItemToDate=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="407" _LineItemPaidByType="Seller" _LineItemAmount="0" HUD1LineItemFromDate="" HUD1LineItemToDate=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="408" _LineItemPaidByType="Seller" _LineItemAmount="0" HUD1LineItemFromDate="" HUD1LineItemToDate=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="409" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="410" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="411" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="412" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="501" _LineItemPaidByType="Seller" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="502" _LineItemPaidByType="Seller" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="503" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="504" _LineItemPaidByType="Seller" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="505" _LineItemPaidByType="Seller" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="506" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="507" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="508" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="509" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="510" _LineItemPaidByType="Seller" _LineItemAmount="0" HUD1LineItemFromDate="" HUD1LineItemToDate=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="511" _LineItemPaidByType="Seller" _LineItemAmount="0" HUD1LineItemFromDate="" HUD1LineItemToDate=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="512" _LineItemPaidByType="Seller" _LineItemAmount="0" HUD1LineItemFromDate="" HUD1LineItemToDate=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="513" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="514" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="515" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="516" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="517" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="518" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="519" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="520" _LineItemPaidByType="Seller" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="601" _LineItemPaidByType="Seller" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="602" _LineItemPaidByType="Seller" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="603" _LineItemPaidByType="Seller" HUD1CashToOrFromSellerIndicator="N" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="701" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="702" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="703" _LineItemPaidByType="Buyer" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="703" _LineItemPaidByType="Seller" _LineItemAmount="0"/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="704" _LineItemPaidByType="Buyer" _LineItemAmount="0" _LineItemDescription=""/>
+							<RESPA_HUD_DETAIL _SpecifiedHUDLineNumber="704" _LineItemPaidByType="Seller" _LineItemAmount="0" _LineItemDescription=""/>
+						</_CLOSING_DOCUMENTS>
+					</LOAN>
+				</MAIN>
+				<CUSTOM>
+					<CONFORMX>
+						<CX_LOS>
+							<PUSHBACK _OrderID="12345" _EnvironmentDescription="StageCX4" _URL="https://www.rik.com" IncludeAllAttributesInLOSPushbackEsignData="N" IncludeEsignDataInLOSPushback="Y"/>
+						</CX_LOS>
+						<CX_ASSIGNMENT _Date="" _Phone="" LoanNumber="" CorporateOfficer1="James D. Eiynck" CorporateOfficer2="Daniel G. Steil">
+							<CX_NOTARY _FirstName="" _LastName="" _MiddleName="" OfficerTitle="" OfficerUnparsedName="" RelationShip="He" RelationShip2="His" ResidingAt="" _SequenceIdentifier="1" OfficerFirstName="James" OfficerLastName="Eiynck" OfficerMiddleName="D."/>
+							<CX_NOTARY _SequenceIdentifier="2" OfficerFirstName="Daniel" OfficerLastName="Steil" OfficerMiddleName="G."/>
+						</CX_ASSIGNMENT>
+						<CX_BORROWER _SequenceIdentifier="1" _NonPurchasingSpouseIndicator="" BorrowerCompleteInsurerCity="" BorrowerCompleteInsurerName="" BorrowerCompleteInsurerPhone="" BorrowerCompleteInsurerState="" BorrowerCompleteInsurerStreet="" BorrowerCompleteInsurerZip="" BorrowerToObtainOwnersTitleInsIndicator="N" ChooseInsurerAgentAttorneyIndicator="N" SpouseName="Mary Jane Parker" NextBorrowerIsSpouseOn4506T="Y">
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Equifax" _Date="" _Value="0" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Experian" _Date="" _Value="0" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Other" _SequenceIdentifier="1" _Date="" _Value="0" AgencyName="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Other" _SequenceIdentifier="2" _Date="" _Value="0" AgencyName="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="TransUnion" _Date="" _Value="0" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_NON_PURCHASING_SPOUSE _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+							<POWER_OF_ATTORNEY _FirstName="" _LastName="" _MiddleName="" _Suffix=""/>
+							<CX_VA AdditionalSecurityDescription="" AnnualMaintainanceAssessment="" ApproximateAnnualSpecialAssessmentPaymentAmount="" CertificationOfEligibilityIndicator="" CompleteWhenAuthorizedByCertificateIndicator="" ContractPriceExceedsCRV="" InsuranceType="" LandAcquiredInSeparateTransactionDate="" LoanProceedsWithholdingAmount="" LoanProceedsWithholdingDepositedInAccountType="" NonRealtyAcquiredWithLoanProceedsDescription="" ProcedureType="" TotalUnpaidSpecialAssessments="" VestingType="" VeteranIntendsToOccupyHomeIndicator="" VeteranOnActiveDutySpousePreviouslyOccupiedPropertyIndicator="" VeteranOnActiveDutySpouseWillOccupyIndicator="" VeteranPreviouslyOccupiedPropertyIndicator="" ApprovedUnderwriter="" BorrowerAwareContractPriceExceedsCRV="Y" EstateInPropertyOtherDescription="" LienType="FirstRealtyMortgage" OtherLienTypeDescription="" PurchasePriceOfLandAcquiredInSeparate="" SocialSecurityNumber="" VeteranFirstName="" VeteranGender="NotSpecified" VeteranLastName="" VeteranMiddleName="" VetEthnicity="NotSpecified">
+								<CX_VA_AGENT _SequenceIdentifier="1" _FullAddress="" _Function="" _Name=""/>
+								<CX_VA_AGENT _SequenceIdentifier="2" _FullAddress="" _Function="" _Name=""/>
+								<CX_VA_AGENT _SequenceIdentifier="3" _FullAddress="" _Function="" _Name=""/>
+								<CX_VA_AGENT _SequenceIdentifier="4" _FullAddress="" _Function="" _Name=""/>
+								<CX_VA_AGENT _SequenceIdentifier="5" _FullAddress="" _Function="" _Name=""/>
+								<CX_VA_RELATIVE _City="" _FirstName="" _LastName="" _MiddleName="" _Phone="" _PostalCode="" _State="" _Street=""/>
+							</CX_VA>
+							<CX_VA VestingType="Other" VestingTypeOtherDescription=""/>
+							<SETTLOR _SequenceIdentifier="1" _Name="" _FirstName="" _LastName="" _MiddleName="Peter M. Parker"/>
+							<SETTLOR _SequenceIdentifier="2" _Name="" _FirstName="" _LastName="" _MiddleName=""/>
+						</CX_BORROWER>
+						<CX_BORROWER _SequenceIdentifier="2" _NonPurchasingSpouseIndicator="" SpouseName="">
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Equifax" _Date="" _Value="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Experian" _Date="" _Value="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Other" _SequenceIdentifier="1" _Date="" _Value="" AgencyName="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Other" _SequenceIdentifier="2" _Date="" _Value="" AgencyName="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="TransUnion" _Date="" _Value="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_NON_PURCHASING_SPOUSE _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+							<POWER_OF_ATTORNEY _FirstName="" _LastName="" _MiddleName="" _Suffix=""/>
+							<SETTLOR _SequenceIdentifier="1" _Name="" _FirstName="" _LastName="" _MiddleName=""/>
+							<SETTLOR _SequenceIdentifier="2" _Name="" _FirstName="" _LastName="" _MiddleName=""/>
+							<CX_VA CoborrowerEthnicity="NotSpecified"/>
+						</CX_BORROWER>
+						<CX_BORROWER _SequenceIdentifier="3" _NonPurchasingSpouseIndicator="" SpouseName="May M. Parker" NextBorrowerIsSpouseOn4506T="Y">
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Equifax" _Date="" _Value="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Experian" _Date="" _Value="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Other" _SequenceIdentifier="1" _Date="" _Value="" AgencyName="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Other" _SequenceIdentifier="2" _Date="" _Value="" AgencyName="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="TransUnion" _Date="" _Value="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_NON_PURCHASING_SPOUSE _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+							<POWER_OF_ATTORNEY _FirstName="" _LastName="" _MiddleName="" _Suffix=""/>
+							<SETTLOR _SequenceIdentifier="1" _Name="" _FirstName="" _LastName="" _MiddleName=""/>
+							<SETTLOR _SequenceIdentifier="2" _Name="" _FirstName="" _LastName="" _MiddleName=""/>
+						</CX_BORROWER>
+						<CX_BORROWER _SequenceIdentifier="4" _NonPurchasingSpouseIndicator="" SpouseName="Ben G. Parker">
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Equifax" _Date="" _Value="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Experian" _Date="" _Value="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Other" _SequenceIdentifier="1" _Date="" _Value="" AgencyName="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="Other" _SequenceIdentifier="2" _Date="" _Value="" AgencyName="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_CREDIT_SCORE CreditRepositorySourceType="TransUnion" _Date="" _Value="" KeyFactor="" RangeMax="" RangeMin=""/>
+							<CX_NON_PURCHASING_SPOUSE _FirstName="" _LastName="" _MiddleName="" _UnparsedName=""/>
+							<POWER_OF_ATTORNEY _FirstName="" _LastName="" _MiddleName="" _Suffix=""/>
+							<SETTLOR _SequenceIdentifier="1" _Name="" _FirstName="" _LastName="" _MiddleName=""/>
+							<SETTLOR _SequenceIdentifier="2" _Name="" _FirstName="" _LastName="" _MiddleName=""/>
+						</CX_BORROWER>
+						<CX_BROKER FeePercent="" MortgageBrokerServices="" LoanOriginatorType="Lender"/>
+						<CX_NOTE NoteEndorsement="Without Recourse Pay to the Order Of:Wells Fargo Bank, N.A._________________________________James D. Eiynck, Vice PresidentThe First National Bank of Kalamazoo"/>
+						<CX_CONSOLIDATION>
+							<CX_MORTGAGE _SequenceIdentifier="1" AssignedToDate="" AssignedToName="" MortgageDate="" MortgageGivenByName="" MortgageInFavorOf="" RecordedOnFannieSecurityInstrument="" NoteDate="" OriginalPrincipalAmount="" UnpaidPrincipalBalance="" AmountAdvanced="">
+								<CX_RECORDING _Type="Assignment" RecordedAtName="" RecordedDate="" RecordingJurisdictionName="" RecordingJurisdictionType="COUNTY"/>
+								<CX_RECORDING _Type="Mortgage" RecordedAtName="" RecordingJurisdictionName="" RecordingJurisdictionType="" MortgageState="" RecordedDate=""/>
+							</CX_MORTGAGE>
+							<CX_MORTGAGE _SequenceIdentifier="2" AssignedToDate="" AssignedToName="" MortgageDate="" MortgageGivenByName="" MortgageInFavorOf="" RecordedOnFannieSecurityInstrument="" NoteDate="" OriginalPrincipalAmount="" UnpaidPrincipalBalance="">
+								<CX_RECORDING _Type="Assignment" RecordedAtName="" RecordedDate="" RecordingJurisdictionName="" RecordingJurisdictionType="COUNTY" _SequenceIdentifier="1"/>
+								<CX_RECORDING _Type="Assignment" _SequenceIdentifier="2" AssignedToName="" AssignmentDate="" RecordedAtName="" RecordedDate="" RecordingJurisdictionName="" RecordingJurisdictionType="COUNTY"/>
+								<CX_RECORDING _Type="Assignment" _SequenceIdentifier="3" AssignedToName="" AssignmentDate="" RecordedAtName="" RecordedDate="" RecordingJurisdictionName="" RecordingJurisdictionType="COUNTY"/>
+								<CX_RECORDING _Type="Mortgage" RecordedAtName="" RecordingJurisdictionName="" RecordingJurisdictionType="" MortgageState="" RecordedDate=""/>
+							</CX_MORTGAGE>
+							<CX_MORTGAGE _SequenceIdentifier="3" AssignedToDate="" AssignedToName="" MortgageDate="" MortgageGivenByName="" MortgageInFavorOf="" RecordedOnFannieSecurityInstrument="" NoteDate="" OriginalPrincipalAmount="" UnpaidPrincipalBalance="">
+								<CX_RECORDING _Type="Assignment" RecordedAtName="" RecordedDate="" RecordingJurisdictionName="" RecordingJurisdictionType="COUNTY" _SequenceIdentifier="1"/>
+								<CX_RECORDING _Type="Assignment" _SequenceIdentifier="2" AssignedToName="" AssignmentDate="" RecordedAtName="" RecordedDate="" RecordingJurisdictionName="" RecordingJurisdictionType="COUNTY"/>
+								<CX_RECORDING _Type="Assignment" _SequenceIdentifier="3" AssignedToName="" AssignmentDate="" RecordedAtName="" RecordedDate="" RecordingJurisdictionName="" RecordingJurisdictionType="COUNTY"/>
+								<CX_RECORDING _Type="Mortgage" RecordedAtName="" RecordingJurisdictionName="" RecordingJurisdictionType="" MortgageState="" RecordedDate=""/>
+							</CX_MORTGAGE>
+						</CX_CONSOLIDATION>
+						<CX_ESCROW FloodCommunityDescription="" FloodInsuranceRequired="N" ScheduleBItems="" TaxMessage="" TotalOfMonthlyAmounts="" SearchCode="" EscrowHoldbackFailurePercentage="0">
+							<CX_ESCROW_ITEM _ItemType="AggregateAdjustment" BuyerExpense="-195.99" NonBuyerExpense="0" NonBuyerExpensePaidBy=""/>
+							<CX_ESCROW_ITEM _ItemType="CityPropertyTax" _Phone="" AmountLastPaid="0" DateLastPaid="" DelinquentDate="" PeriodicPaymentType="0" PrepaidFinanceChargeIndicator="0"/>
+							<CX_ESCROW_ITEM _ItemType="CountyPropertyTax" _Phone="320-656-3870" AmountLastPaid="0" DateLastPaid="" DelinquentDate="" PeriodicPaymentType="1" PrepaidFinanceChargeIndicator="0"/>
+							<CX_ESCROW_ITEM _ItemType="Assessment"/>
+							<CX_ESCROW_ITEM _ItemType="FloodInsurance" ExpirationDate="" PolicyCoverageAmount="0" PolicyNumber="" PrepaidFinanceChargeIndicator="0" EffectiveDate=""/>
+							<CX_ESCROW_ITEM _ItemType="HazardInsurance" EffectiveDate="11/27/2014" ExpirationDate="11/27/2015" PolicyCoverageAmount="0" PolicyNumber="" PrepaidFinanceChargeIndicator="0"/>
+							<CX_ESCROW_ITEM _ItemType="Other" _Phone="" AmountLastPaid="0" DateLastPaid="" DelinquentDate="" NonBuyerExpense="0" PeriodicPaymentType="0" PrepaidFinanceChargeIndicator="0"/>
+							<CX_ESCROW_ITEM _ItemType="SchoolPropertyTax" _Phone="" AmountLastPaid="0" DateLastPaid="" DelinquentDate="" PeriodicPaymentType="0" PrepaidFinanceChargeIndicator="0"/>
+							<CX_ESCROW_ITEM _ItemType="WindstormInsurance" ExpirationDate="" PolicyCoverageAmount="0" PolicyNumber="" PrepaidFinanceChargeIndicator="0" EffectiveDate=""/>
+						</CX_ESCROW>
+						<CX_ESCROW>
+							<CX_HOLDBACK_ITEM _SequenceIdentifier="1" BorrowersCost="0" CompletionDate="10/15/2015" ContractorName="" Description="" PercentOfTotalCost="0" SellersCost="0" TotalCost="0"/>
+							<CX_HOLDBACK_ITEM _SequenceIdentifier="2" BorrowersCost="0" CompletionDate="10/15/2015" ContractorName="" Description="" PercentOfTotalCost="0" SellersCost="0" TotalCost="0"/>
+							<CX_HOLDBACK_ITEM _SequenceIdentifier="3" BorrowersCost="0" CompletionDate="10/15/2015" ContractorName="" Description="" PercentOfTotalCost="0" SellersCost="0" TotalCost="0"/>
+						</CX_ESCROW>
+						<CX_INVESTOR ExistsUnderTheLawsOfState="California" ID="NORW" SearchCode="1" IsTamiIndicator="N"/>
+						<CX_LENDER SearchCode="" LenderIsA="Corporation" NameExtension="" VA_IDNumber="75048200007">
+							<CX_CORPORATE_OFFICER _SequenceIdentifier="1" _FirstName="James" _MiddleName="D." _LastName="Eiynck" _Title="Vice President"/>
+							<CX_CORPORATE_OFFICER _SequenceIdentifier="2" _FirstName="Daniel" _MiddleName="G." _LastName="Steil" _Title="Vice President"/>
+						</CX_LENDER>
+						<CX_LOAN AdjustableRatePeriodicCap="0" AmountFinancedItemizationIndicator="Y" CreditLifeRequiredIndicator="N" FailureToCloseReasons="" FHA_Suffix="" FinalBalloonPaymentAmount="723.49" LoanNumber="TESTLOLIST" LoanOriginatorName="" LoanOriginationatorName="" LoanOriginatorAddress="" LoanOriginatorPhone="" LockDate="9/30/2015" PaymentFirstRecastMonths="0" PaymentSubsequentRecastMonths="0" PeriodicPaymentAdjustmentFloor="0" ServicingLoanNumber="" SubprimeIndicator="N" TILSecurityTypeOtherDescription="RealPropertyYouAlreadyOwn" _IncludeOddDaysTimeIndicator="Y" Calculate901UsingMarginPlusIndexIndicator="0" YSPWireIndicator="N" SRPWireIndicator="N" LoanOriginatorLicenseNumber="" FulfillmentShippingMethod="FedExNextDay" GenerateAlternateDocumentSet="Y">
+							<INITIAL_DISCLOSURES CreditDisabilityPayee="" CreditDisabilityPremium="" CreditLifePayee="" CreditLifePremium="" CreditLifeRequiredIndicator="N" DaysRequiredToProcess="" LockInNotAvailable="1" MaximumLoanToValue="" OtherBrokerFeeDescription1="" OtherBrokerFeeDescription2="" OtherBrokerFeePercent1="" OtherBrokerFeePercent2="" OtherUpfrontFeeAmount="" OtherUpfrontFeeDescription="" PreviousLoanAmortization="" PreviousLoanPurposeType="" PreviousLoanBalloonIndicator="" PreviousLoanInterestOnly="" PreviousLoanNegativeAmortization="" ARMMaxPaymentAmount="723.75" ARMTerms="" BalloonConditionalRighttoRefinanceIndicator="N" BasisOfRateCPeterge="" CommitExpirationDate="" CommitExpirationNumberofDays="" CommittmentLetterWaiverReason="" DebtToIncomeLevel="" FailureToQualifyReasons="" FeeCreditLifeDisabilityPaidIndicator="N" FinalBalloonPaymentAmount="723.49" FinalBalloonPaymentInterestPortion="1.95" FinalBalloonPaymentPrincipalPortion="721.54" IndexEstablishedBy="WallStreetJournal" IndexEstablishedOtherText="" IndexPublishOtherText="" IndexPublishPeriod="Annually" InitialDisclosureFirstRateCPetergePaymentNumber="" LenderWillSetRateAt="" LenderWillSetRateIndicator="N" LockInDays="" LockInFee="" LockInFeeRefundableConditions="" LockInFeeRefundableIndicator="N" LockInOptions="" MaximumPoints="" MinimumPoints="" NumberofProcessingDays="" OpenOrClosedEndSelection="Open" OvernightDocumentDeliveryServicesFee="" PreviousLoanDate="" PreviousLoanDebtToIncomeLevel="" PreviousLoanLoanToValue="" PreviousLoanPrePayPenaltyIndicator="N" PreviousLoanTerm="" RateCanCPetergeIndicator="N" RegulatorAgencyCity="" RegulatorAgencyName="" RegulatorAgencyState="" RegulatorAgencyStreet="" RegulatorAgencyZip="" RequiredLockDaysPriortoSettlement="" UFFIIndicator="N" UFFILevel="">
+								<CONSTRUCTION_LOAN ConstructionToPermFloorRate="0" LoansInProcessHouseAccountAmount="" TotalConstructionCost="" PreliminaryDrawAmount=""/>
+								<REQUIRED_SERVICE_PROVIDERS _SequenceIdentifier="1" City="" CompanyName="" Phone="" RelationshipToLender="" State="" Street="" Zip=""/>
+								<REQUIRED_SERVICE_PROVIDERS _SequenceIdentifier="2" City="" CompanyName="" Phone="" RelationshipToLender="" State="" Street="" Zip=""/>
+								<REQUIRED_SERVICE_PROVIDERS _SequenceIdentifier="3" City="" CompanyName="" Phone="" RelationshipToLender="" State="" Street="" Zip=""/>
+								<REQUIRED_SERVICE_PROVIDERS _SequenceIdentifier="4" City="" CompanyName="" Phone="" RelationshipToLender="" State="" Street="" Zip=""/>
+								<TAX_SERVICE TaxServiceVendorBankCode="" TaxServiceVendorCity="" TaxServiceVendorContactFirstName="" TaxServiceVendorContactLastName="" TaxServiceVendorContactMiddleName="" TaxServiceVendorContactSuffix="" TaxServiceVendorName="" TaxServiceVendorPhone="" TaxServiceVendorState="" TaxServiceVendorStreet="" TaxServiceVendorZip=""/>
+							</INITIAL_DISCLOSURES>
+							<CLOSING_DOCUMENTS DateSecurityInstrumentRecorded="" UseDefaultPOBox="" LatestDisclosedAPR="3.21" LatestDisclosedFinanceCharge="60520.05">
+								<RIGHT_TO_CANCEL DTC_LoanIsOriginalLenderRefiIndicator="N"/>
+								<NOTE UseALCautionNotice="Y"/>
+								<RECORDABLE_DOCUMENT>
+									<NOTARY _FirstName="" _LastName="" _MiddleName=""/>
+								</RECORDABLE_DOCUMENT>
+							</CLOSING_DOCUMENTS>
+							<CX_ARM_DISCLOSURE UndiscountedRate="0" EffectiveDate=""/>
+							<CX_ARM_DATA OptionARMPaymentType="2" InterestOnlyBeginsAtPrincipalLifeCapIndicator="N" InterestOnlyMinPaymentRateIndicator="N" InterestOnlyPymtAdjPeriodIndicator="N" MaxInterestOnlyTermMonths="0" MaxPymtDiscountTermMonths="0"/>
+							<CX_BUYDOWN BuydownOptionType="No" DepositorName="" TotalBorrowerAmount="0" TotalLenderAmount="0"/>
+							<CX_CONSTRUCTION_INFO FirstPaymentDate="" InterestRate="0" LoanMaturityDate="" LoanTerm="0" ConstructionInterestRateType="1"/>
+							<CX_SECOND_MORTGAGE LoanTerm="0" InterestRate="0" PaymentAmount="0" LienHolder="" LienTrustee=""/>
+						</CX_LOAN>
+						<CX_PREVIOUS_LOAN _Amount="" InterestRatePercent="" PaymentAmount=""/>
+						<CX_PROPERTY NewConstruction="1" PropertyInspectionWaiver="0">
+							<CX_MOBILE_HOME ParkName="" Condition="New" Description="" HouseLength="" HouseWidth="" HUDPlateNumber="" LandLotDescription="" Make="" Model="" SerialNumber="" Year=""/>
+							<CX_BUILDER _City="" _ContactName="" _ContactFirstName="" _ContactLastName="" _ContactMiddleName="" _ContactTitle="" _Name="" _Phone="" _Fax="" _PostalCode="" _State="" _Street="" BuildersVendorNumber=""/>
+							<CX_INSPECTOR FaxNumber="" Name="" Phone=""/>
+							<SURVEY_INFO SurveyCondition="" SurveyDate="" SurveyName=""/>
+						</CX_PROPERTY>
+						<CX_REFINANCE CLTV="0" ExistingHCLIndicator="N" MonthsSincePreviousRefinance="0"/>
+						<CX_SELLER Vesting="" _SequenceIdentifier="1" SocialSecurityNumber=""/>
+						<CX_SELLER _SequenceIdentifier="2" SocialSecurityNumber=""/>
+						<CX_SELLER _SequenceIdentifier="3" SocialSecurityNumber=""/>
+						<CX_SELLER _SequenceIdentifier="4" SocialSecurityNumber=""/>
+						<CX_SHIPPING ABARoutingNumber="" AMCCAccountNumber=""/>
+						<CX_TITLE ComprehensiveEndorsementIndicator="0" EightOneEnvironmentEndorsementIndicator="0" FourCondoEndorsementIndicator="0" LocationEndorsementIndicator="0" NegativeAmortizationEndorsementIndicator="0" OtherEndorsementDescription="" OtherEndorsementIndicator="0" PlannedUnitDevelopmentEndorsementIndicator="0" SixARMEndorsementIndicator="0" ThreeRandFiveEndorsementIndicator="0" SearchCode="0"/>
+						<CX_STATE_SPECIFIC_INFO RenewalAndExtension_OriginalPrincipalAmount="0" RenewalAndExtension_OriginalNoteDate="" RenewalAndExtension_OriginalLender="" RenewalAndExtension_RecordedIn="" AttorneysFees="" CheckInsteadOfEscrow="N" DerivationClauseDocumentType="WarrantyDeed" DerivationRecordingInfoType="UseBookPage" NonPara27PurchaseMoneyIndicator="N" SubjectToKansasUniformCommercialCreditCode="N" TrusteeResidentOf="Florida"/>
+						<CX_RESPA_FEE _SpecifiedHUDLineNumber="801" PlusAmount="0"/>
+						<CX_RESPA_FEE _SpecifiedHUDLineNumber="802" PlusAmount="0"/>
+						<CX_RESPA_FEE _SpecifiedHUDLineNumber="903" PremiumYears="1"/>
+						<CX_COMPLIANCE Section32Indicator="N"/>
+						<CX_AGENT _Type="Closer" _FirstName="" _LastName="" _MiddleName=""/>
+						<CX_AGENT _Type="EscrowCompany">
+							<CONTACT_DETAIL _FirstName="" _LastName="" _MiddleName=""/>
+						</CX_AGENT>
+						<!--<EDELIVERY EnableSolexEsign="Y" CustomReplacementFieldValue14="Please cut and paste the URL below, into a browser, and visit our Website to view your documents:" CustomReplacementFieldValue15="https://stearns.com"/>-->
+						<EDELIVERY EnableSolexEsign="Y" EnableSolexEmail="Y" EnableSolexEdisclose="Y" SolexSkipReview="N" DisableSecurityQuestions="N" DisplayAlternateEsignCompletePage="N" EnableEdiscloseReviewPage="Y" EnableSolexCollaboration="Y" iFrameVendor="Ethos" DisplayAlternateEdiscloseCompletePage="N" ReturnPartyLinksInLightsOutResponseIndicator="Y" ReturnBookletIndicatorsInLightsOutResponse="Y" EnablePegaCobrowse="N" IncludeAllAttributesInDocumentRequestResponseEsignData="N" EcloseVendor="Simplifile" ConsentFrequency="PerLoan" EnableEclosings="Y"/>
+						<!--<E-DELIVERY DisableSecurityQuestions="N"  ConsentFrequency="PerLoan" ConsentFrequency="PerPackage" />-->
+						<!--<DOCUMENTS AlternateDocSetRequested="1"/>-->
+					</CONFORMX>
+				</CUSTOM>I
+			</DATA>
+		</SMART_DOCUMENT>
+	</EMORTGAGE_PACKAGE>
+	<REQUEST_OPTIONS>
+		<DOCUMENTS _PackageType="Initial Disclosure">
+			<!--<DOCUMENT _ID="2531" _Sequence="1"/>-->
+			<!--<DOCUMENT _ID="3095" _Sequence="1"/>
+			<DOCUMENT _ID="3095" _Sequence="2"/>-->
+		</DOCUMENTS>
+	</REQUEST_OPTIONS>
+	
+</DOCUMENT_REQUEST_IMPORT>
