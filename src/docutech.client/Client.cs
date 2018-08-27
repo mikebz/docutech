@@ -38,12 +38,11 @@ namespace docutech.client
 			
 			const string processUrl = "cx4/cxws/enginews.asmx";
 			
-			var encoded = WebUtility.UrlEncode(xml);
 			var requestBody = $@"<?xml version=""1.0"" encoding=""utf-8""?>
 				<soap:Envelope xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns:soap=""http://schemas.xmlsoap.org/soap/envelope/"">
 				<soap:Body>
 					<Process xmlns=""http://conformx.docutechcorp.com/ConformXWS"">
-					<xmlRequest>{encoded}</xmlRequest>
+					<xmlRequest><![CDATA[{xml}]]></xmlRequest>
 					</Process>
 				</soap:Body>
 				</soap:Envelope>";
