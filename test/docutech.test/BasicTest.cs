@@ -41,7 +41,7 @@ namespace docutech.test
             var logger = _loggerFactory.CreateLogger<Client>();
             var client = new Client(logger);
 
-            using (StreamReader stream = new StreamReader("test_data/init_disc_lights_on.xml"))
+            using (StreamReader stream = new StreamReader("test_data/init_disc_lights_out.xml"))
             {
                 string importXml = stream.ReadToEnd();
                 TestContext.WriteLine($"XML file content: {importXml.Substring(0, 60)}...");
